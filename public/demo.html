@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acme Corp — Intranet</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 16px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header h1 { font-size: 18px; font-weight: 600; }
+    header .user { font-size: 14px; opacity: 0.7; }
+    nav {
+      background: white;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0 32px;
+    }
+    nav a {
+      display: inline-block;
+      padding: 12px 16px;
+      color: #666;
+      text-decoration: none;
+      font-size: 14px;
+      border-bottom: 2px solid transparent;
+    }
+    nav a:hover { color: #3b82f6; }
+    main {
+      max-width: 800px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .card h2 { font-size: 16px; margin-bottom: 8px; }
+    .card p { font-size: 14px; color: #666; line-height: 1.6; }
+    .notice {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+      padding: 16px;
+      margin-top: 32px;
+    }
+    .notice h3 { font-size: 14px; color: #1d4ed8; margin-bottom: 4px; }
+    .notice p { font-size: 13px; color: #1e40af; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏢 Acme Corp Intranet</h1>
+    <span class="user">Welcome, John Doe</span>
+  </header>
+  <nav>
+    <a href="#">Dashboard</a>
+    <a href="#">Documents</a>
+    <a href="#">Policies</a>
+    <a href="#">HR</a>
+  </nav>
+  <main>
+    <div class="card">
+      <h2>📢 Company Announcement</h2>
+      <p>Updated remote work policy effective from July 2026. All employees must review the new guidelines. Check the HR section for details.</p>
+    </div>
+    <div class="card">
+      <h2>📋 Upcoming Training</h2>
+      <p>Mandatory compliance training for all departments. Deadline: August 15, 2026. Contact your manager for scheduling.</p>
+    </div>
+    <div class="card">
+      <h2>🔒 Security Notice</h2>
+      <p>New password requirements: minimum 12 characters, 2FA mandatory for all external services. Report suspicious emails to security@acme.internal.</p>
+    </div>
+    <div class="notice">
+      <h3>💬 Need help with policies?</h3>
+      <p>Click the chat button in the bottom-right corner to ask our AI Compliance Assistant about company policies, procedures, or guidelines.</p>
+    </div>
+  </main>
+
+  <!-- Embeddable Widget — replace with your own deployment URL and widget key -->
+  <script
+    src="https://your-app-url.com/widget.js"
+    data-key="00000000-0000-0000-0000-000000000000"
+    data-title="Acme Compliance Assistant"
+  ></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+ACME CORPORATION — INFORMATION SECURITY POLICY
+Effective Date: March 1, 2026
+Owner: Chief Information Security Officer (CISO)
+
+1. PASSWORD POLICY
+- Minimum length: 12 characters
+- Must include: uppercase, lowercase, number, and special character
+- Passwords must be changed every 90 days
+- Reuse of the last 5 passwords is prohibited
+- Default passwords must be changed within 24 hours of account creation
+- Password sharing between employees is strictly prohibited
+
+2. ACCESS CONTROL
+- Principle of least privilege: employees receive only the access required for their role
+- Access reviews are conducted quarterly by department heads
+- Admin privileges require CISO approval and are reviewed every 30 days
+- Former employees' access is revoked within 2 hours of termination
+- Shared accounts are prohibited; each employee must have a unique account
+
+3. DATA CLASSIFICATION
+- Level 1 (Public): Marketing materials, press releases — no restrictions
+- Level 2 (Internal): Internal memos, team calendars — employees only
+- Level 3 (Confidential): Customer data, financial reports, HR records — need-to-know basis, encrypted
+- Level 4 (Restricted): M&A documents, source code, encryption keys — executive access only, air-gapped storage
+
+4. INCIDENT REPORTING
+- All security incidents must be reported within 1 hour of discovery
+- Report to: security@acme.internal or via the Incident Response Portal
+- Do NOT attempt to investigate or remediate independently — contact the Security Team
+- Preserve all evidence; do not delete or modify affected systems
+- Ransomware: disconnect from network immediately, do NOT pay the ransom
+
+5. THIRD-PARTY VENDORS
+- All vendors accessing company data must sign a Data Processing Agreement (DPA)
+- Vendor security assessments are conducted annually
+- Vendors with access to Level 3+ data must undergo additional security audits
+- Subcontracting without written consent is prohibited
+
+6. AUDIT AND COMPLIANCE
+- Annual security audit by an independent third party
+- Quarterly internal audits by the Security Team
+- All audit findings must be addressed within 30 days
+- Non-compliance may result in regulatory fines and reputational damage
+
+7. ACCEPTABLE USE
+- Company devices and network are for business purposes primarily
+- Personal use must not interfere with work productivity
+- Installing unauthorized software is prohibited
+- All internet activity is logged and may be monitored for security purposes
+- Social media use during work hours must comply with the Social Media Policy
+
+For questions, contact: security@acme.internal
+Next review: March 2027
