@@ -42,7 +42,7 @@ ComplianceGPT is an AI-powered compliance assistant that learns your company's i
 | Database | Supabase (PostgreSQL) |
 | AI | DeepSeek (deepseek-chat) + hash-based embeddings |
 | Embeddable widget | Vanilla JS (iframe + postMessage) |
-| Deployment | Vercel (Next.js version) + Netlify (Lovable/TanStack Start) |
+| Deployment | Vercel (Next.js version) + Netlify (Lovable/TanStack Start) + Railway |
 
 ---
 
